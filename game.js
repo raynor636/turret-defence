@@ -15,8 +15,7 @@ BasicGame.Boot.prototype = {
     preload: function () {
 
         game.load.image('tile', './assets/tile.png');
-        game.load.image('box', './assets/cube.png');
-        game.load.spritesheet('tower', './assets/turret.png', 44, 57, 18)
+        game.load.spritesheet('tower', './assets/turret.png', 44, 57, 18);
 
         game.time.advancedTiming = true;
 
